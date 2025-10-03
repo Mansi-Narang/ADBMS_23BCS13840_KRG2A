@@ -1,5 +1,3 @@
--- Database: krg_3b
-
 CREATE TABLE employee_info (
     id SERIAL PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
@@ -132,4 +130,5 @@ $$;
 
 
 CALL pr_buy_products ('MacBook Pro 14"', 1);
+
 

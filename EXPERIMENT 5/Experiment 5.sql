@@ -1,7 +1,3 @@
--- Database: krg_3b
-
--- DROP DATABASE IF EXISTS krg_3b;
-
 CREATE TABLE transaction_data (
     id INT,
     value INT
@@ -155,5 +151,6 @@ GRANT SELECT ON vW_ORDER_SUMMARY TO Mansi;
 
 
 REVOKE SELECT ON vW_ORDER_SUMMARY FROM Mansi;
+
 
 
